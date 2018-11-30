@@ -11,7 +11,6 @@ Rails.application.routes.draw do
     get '/login' => 'users/sessions#new'
     get '/register' => 'users/registrations#new'
     get '/settings' => 'users/registrations#edit'
-    root 'users/sessions#new'
   end
 
   # for admin
